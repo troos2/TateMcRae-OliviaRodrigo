@@ -64,9 +64,48 @@ footer {
     text-align:center;
 }
 
-.product img{
-    width:200px;
+.producten {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+.product {
+    text-align: center;
+}
+
+.producten {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;   /* alle producten even breed */
+    text-align: center;
+}
+
+.product a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;   /* alle afbeeldingen even hoog */
+}
+
+.product img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* GEEN crop */
+}
+
 </style>
 </head>
 
@@ -75,7 +114,7 @@ footer {
 <ul class="menu">
   <li><a href="index.html">Tate McRae</a></li>
   <li><a href="OliviaRodrigo.html">Olivia Rodrigo</a></li>
-  <li><a href="Tate Mcrae & Olivia Rodrigo.html">Tate Mcrae & Olivia Rodrigo</a></li>
+  <li><a href="magic.html">Tate Mcrae & Olivia Rodrigo en meer</a></li>
 </ul>
 
 <h1 style="color:#da3131;" id="????">Olivia Rodrigo</h1>
@@ -124,6 +163,8 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
   </li>
   <br>
 
+  <img src="hsm.png" width= 150px style="margin: 2cm;">
+
   <li>
     Hunger games: The Ballad of Songbirds & Snakes (2023)
     <ul>
@@ -131,6 +172,8 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
     </ul>
   </li>
   <br>
+
+  <img src="thgtboss.png" width= 150px style="margin: 2cm;">
 
   <li>
     SOUR (2021)
@@ -150,6 +193,8 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
   </li>
   <br>
 
+  <img src="sour.png" width= 150px style="margin: 2cm;">
+
   <li>
     GUTS (2023)
     <ul>
@@ -167,6 +212,8 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
     </ul>
   </li>
   <br>
+
+  <img src="guts.png" width= 150px style="margin: 2cm;">
 
   <li>
     GUTS (Spilled) (2023)
@@ -191,6 +238,8 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
   </li>
 </ol>
 
+<img src="guts(spilled).png" width= 150px style="margin: 2cm;">
+
 
 <h1 style="font-size:20px;"><b>Top 10 (op Spotify)</b></h1>
 
@@ -214,81 +263,75 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
 </div>
 
 <h1 style="font-size:20px;"><b>Samenwerkingen met grote merken</b></h1>
-<h4><p>Lancôme</p></h4>
-<div class="producten">
-
-  <div class="product">
-  <a href="https://www.lancome-usa.com/makeup/eye-makeup/mascaras/lash-idole-flutter-extension-lengthening-mascara/01102-LAC.html" target="_blank">
-  <img src="Mascara.png" width="200">
-  </a>
-  <p style="font-size: 15px;">Lash Idôle Flutter Extension Lengthening Mascara</p>
-  </div>
-
-  <div class="product">
-    <a href="http://lancome-usa.com/makeup/eye-makeup/eye-liners-and-eye-pencils/idole-liner/00538-LAC.html" target="_blank">
-    <img src="liner.png" width="200">
-    </a>
-    <p style="font-size: 15px;">Idôle Liner</p>
-    </div>
-
-  <div class="product">
-    <a href="https://www.lancome-usa.com/makeup/lip-makeup/lip-gloss-and-lip-balm/juicy-tubes-lip-gloss/1000398.html" target="_blank">
-    <img src="lipgloss.png" width="200">
-    </a>
-    <p style="font-size: 15px;">Juicy Tubes Lip Gloss</p>
-    </div>
-
-  <div class="product">
-    <a href="http://lancome-usa.com/fragrance/fragrance-by-collection/idole/idole-power-eau-de-parfum-intense/01100-LAC.html" target="_blank">
-    <img src="parfum.png" width="200">
-    </a>
-    <p style="font-size: 15px;">Idôle Power Eau De Parfum Intense</p>
-    </div>
-
-  <div class="product">
-    <a href="https://www.lancome-usa.com/makeup/lip-makeup/lip-gloss-and-lip-balm/lip-idole-squalane-12-butterglow-hydrating-lip-balm/00981-LAC.html?dwvar_00981-LAC_color=36%20NUDE%20NOW" target="_blank">
-    <img src="lipbalm.png" width="200">
-    </a>
-    <p style="font-size: 15px;">Lip Idôle Squalane-12 Butterglow™ Hydrating Lip Balm</p>
-    </div>
-
-  <div class="product">
-    <a href="https://www.lancome-usa.com/makeup/face-makeup/concealers/teint-idole-ultra-wear-all-over-full-coverage-concealer/00422-LAC.html" target="_blank">
-    <img src="concealer.png" width="200">
-    </a>
-    <p style="font-size: 15px;">Teint Idole Ultra Wear All Over Full Coverage Concealer</p>
-    </div>
-
-  <div class="product">
-    <a href="https://www.lancome-usa.com/makeup/face-makeup/face-primers/la-base-pro-face-and-makeup-primer/1000205.html" target="_blank">
-    <img src="primer.png" width="200">
-    </a>
-    <p style="font-size: 15px;">La Base Pro Face & Makeup Primer</p>
-    </div>
-
-  <div class="product">
-    <a href="https://www.lancome-usa.com/skincare/by-category/toners/clarifique-double-treatment-essence/00369-LAC.html" target="_blank">
-    <img src="toner.png" width="200">
-    </a>
-    <p style="font-size: 15px;">Clarifique Double Treatment Essence</p>
-    </div>
-
-  <div class="product">
-    <a href="https://www.lancome-usa.com/fragrance/fragrance-by-collection/idole/idole-eau-de-parfum/LAN387.html?dwvar_LAN387_size=1.7%20Fl.%20Oz." target="_blank">
-    <img src="parfum2.png" width="200">
-    </a>
-    <p style="font-size: 15px;">Idôle Eau de Parfum</p>
-    </div>
-</div>
-  
-  
-
-<h4><p>Miu Miu</p></h4>
+<h4 style="font-size:20px;"><p>Lancôme</p></h4>
 <div class="producten">
 
 <div class="product">
+<a href="https://www.lancome.be/lash-idole-curl-goddess-mascara/01265-LAC.html" target="_blank">
+<img src="Mascara.png">
+</a>
+<p style="font-size: 15px;">Lash Idôle Flutter Extension Lengthening Mascara</p>
+</div>
+
+<div class="product">
+<a href="https://www.lancome.be/idole-liner/00538-LAC.html" target="_blank">
+<img src="liner.png">
+</a>
+<p style="font-size: 15px;">Idôle Liner</p>
+</div>
+
+<div class="product">
+<a href="https://www.lancome.be/juicy-tubes-original/115012-LAC.html" target="_blank">
+<img src="lipgloss.png">
+</a>
+<p style="font-size: 15px;">Juicy Tubes Lip Gloss</p>
+</div>
+
+<div class="product">
+<a href="https://www.lancome.be/idole-power---eau-de-parfum-intense/01100-LAC.html" target="_blank">
+<img src="parfum.png">
+</a>
+<p style="font-size: 15px;">Idôle Power Eau De Parfum Intense</p>
+</div>
+
+<div class="product">
+<a href="https://www.lancome.be/lip-idole-squalane-12-butterglow/00981-LAC.html" target="_blank">
+<img src="lipbalm.png">
+</a>
+<p style="font-size: 15px;">Lip Idôle Squalane-12 Butterglow™ Hydrating Lip Balm</p>
+</div>
+
+<div class="product">
+<a href="https://www.lancome.be/lip-idole-squalane-12-butterglow/00981-LAC.html" target="_blank">
+<img src="concealer.png">
+</a>
+<p style="font-size: 15px;">Teint Idole Ultra Wear All Over Full Coverage Concealer</p>
+</div>
+
+<div class="product">
+<a href="https://www.lancome.be/clarifique-essence-exfoliant/A02282-LAC.html" target="_blank">
+<img src="toner.png">
+</a>
+<p style="font-size: 15px;">Clarifique Double Treatment Essence</p>
+</div>
+
+<div class="product">
+<a href="https://www.lancome.be/clarifique-essence-exfoliant/A02282-LAC.html" target="_blank">
+<img src="parfum2.png">
+</a>
+<p style="font-size: 15px;">IDÔLE NOW</p>
+</div> 
+</div>
+
+
+<h4 style="font-size:20px;"><p>Miu Miu</p></h4>
+<div class="producten">
+
+
+
+<div class="product">
   <a href="https://www.miumiu.com/fi/en/p/utilitaire-suede-shopping-bag/5BG335_2CSS_F0324_V_POO" target="_blank">
-  <img src="handtas.jpg">
+  <img src="handtas.png">
   </a>
   <p>Utilitaire suede shopping bag</p>
   </div>
@@ -301,10 +344,10 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
   </div>
 
 <div class="product">
-  <a href="https://www.miumiu.com/be/en/p/printed-twill-scarf/5FF004_2F7Y_F022X" target="_blank">
-  <img src="sjaal.jpg">
+  <a href="https://www.miumiu.com/ww/en/p/vivant-leather-bag/5BB196_2IER_F0046_V_OOO" target="_blank">
+  <img src="handtas2.png">
   </a>
-  <p>Printed twill scarf</p>
+  <p>Vivant Leather bag</p>
   </div>
 
 <div class="product">
@@ -323,7 +366,7 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
 
 <div class="product">
   <a href="https://www.miumiu.com/us/en/p/leather-belt/5CC722_2G7V_F0005" target="_blank">
-  <img src="riem.jpg">
+  <img src="riem.png">
   </a>
   <p>Leather belt</p>
   </div>
@@ -336,10 +379,10 @@ Haar debuutalbum Sour (2021) en tweede album GUTS (2023) maakten haar een wereld
   </div>
 
 <div class="product">
-  <a href="https://www.miumiu.com/us/en/p/cashmere-cardigan-vest/MMV380_19RL_F0480_S_OOOO" target="_blank">
-  <img src="vest.jpg">
+  <a href="https://www.miumiu.com/ww/en/p/cashmere-cardigan-vest/MMV380_19RL_F0480_S_OOO" target="_blank">
+  <img src="overvest.png">
   </a>
-  <p>Cashmere cardigan vests</p>
+  <p>Cashmere cardigan vest</p>
   </div>
 
 </div>
